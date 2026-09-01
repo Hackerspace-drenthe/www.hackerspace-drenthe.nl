@@ -1,0 +1,32 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+    <article class="content-item">
+        {{ page.content|raw }}
+
+        {% if page.slug == 'home' %}
+            {% set news_page = page.find('/nieuws') %}
+            {% set now_ts = 'today'|date('U') %}
+            <section class="home-events-block" aria-labelledby="home-events-title">
+                <h2 id="home-events-title">Aankomende geplande evenementen</h2>
+                <ul class="home-events-list">
+                    {% if news_page %}
+                        {% set event_collection = news_page.collection({
+                            items: '@self.children',
+                            order: { by: 'header.nieuwsdatum', dir: 'asc' }
+                        }) %}
+                        {% for event_page in event_collection %}
+                            {% if event_page.header.nieuwsdatum and event_page.header.nieuwsdatum|date('U') >= now_ts %}
+                                <li class="home-events-item">
+                                    <a href="{{ event_page.url }}">{{ event_page.title }}</a>
+                                    <time datetime="{{ event_page.header.nieuwsdatum|date('c') }}">{{ event_page.header.nieuwsdatum|date('d-m-Y') }}</time>
+                                </li>
+                            {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                </ul>
+                <p class="home-events-empty">Er zijn momenteel geen aankomende evenementen gepland.</p>
+            </section>
+        {% endif %}
+    </article>
+{% endblock %}

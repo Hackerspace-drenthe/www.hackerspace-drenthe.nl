@@ -1,0 +1,18 @@
+# OS / editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local environment
+.env
+
+# Grav runtime and generated content
+cache/
+logs/
+tmp/
+backup/
+
+# Sensitive / instance-specific user data
+user/accounts/
+user/data/
