@@ -11,3 +11,20 @@ services:
     ports:
       - 80:80
     restart: unless-stopped
+
+  # git-sync:
+  #   image: alpine/git
+  #   container_name: git-sync
+  #   volumes:
+  #     - ./:/repo
+  #   working_dir: /repo
+  #   entrypoint: /bin/sh
+  #   command:
+  #     - -c
+  #     - |
+  #       git config --global --add safe.directory /repo
+  #       while true; do
+  #         git pull --ff-only
+  #         sleep 60
+  #       done
+  #   restart: unless-stopped
