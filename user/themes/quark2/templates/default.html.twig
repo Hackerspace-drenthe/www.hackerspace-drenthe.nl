@@ -2,6 +2,13 @@
 
 {% block content %}
     <article class="content-item">
+        {% set lead_image = page.header.lead_image ? page.media.images[page.header.lead_image] : null %}
+        {% if lead_image %}
+            <figure class="page-lead-media">
+                <img src="{{ lead_image.url }}" alt="{{ page.title|e('html_attr') }}" class="page-lead-image" loading="lazy" decoding="async" />
+            </figure>
+        {% endif %}
+
         {{ page.content|raw }}
 
         {% if page.slug == 'home' %}
@@ -16,10 +23,16 @@
                             order: { by: 'header.nieuwsdatum', dir: 'asc' }
                         }) %}
                         {% for event_page in event_collection %}
-                            {% if event_page.header.nieuwsdatum and event_page.header.nieuwsdatum|date('U') >= now_ts %}
+                            {% set start_ts = event_page.header.nieuwsdatum ? event_page.header.nieuwsdatum|date('U') : null %}
+                            {% set end_ts = event_page.header.nieuwsdatum_eind ? event_page.header.nieuwsdatum_eind|date('U') : null %}
+                            {% if start_ts and ((end_ts and end_ts >= now_ts) or (not end_ts and start_ts >= now_ts)) %}
                                 <li class="home-events-item">
                                     <a href="{{ event_page.url }}">{{ event_page.title }}</a>
-                                    <time datetime="{{ event_page.header.nieuwsdatum|date('c') }}">{{ event_page.header.nieuwsdatum|date('d-m-Y') }}</time>
+                                    {% if event_page.header.nieuwsdatum_eind %}
+                                        <time datetime="{{ event_page.header.nieuwsdatum|date('c') }}">{{ event_page.header.nieuwsdatum|date('d-m-Y') }} t/m {{ event_page.header.nieuwsdatum_eind|date('d-m-Y') }}</time>
+                                    {% else %}
+                                        <time datetime="{{ event_page.header.nieuwsdatum|date('c') }}">{{ event_page.header.nieuwsdatum|date('d-m-Y') }}</time>
+                                    {% endif %}
                                 </li>
                             {% endif %}
                         {% endfor %}

@@ -6,6 +6,7 @@ template: item
 date: "2021-10-07T00:13:45"
 publish_date: "2021-10-07T00:13:45"
 nieuwsdatum: "2021-11-05"
+nieuwsdatum_eind: "2021-11-06"
 taxonomy:
   category:
     - nieuws

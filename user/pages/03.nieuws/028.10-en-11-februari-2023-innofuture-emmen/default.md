@@ -5,7 +5,8 @@ visible: true
 template: item
 date: "2023-01-13T02:32:13"
 publish_date: "2023-01-13T02:32:13"
-nieuwsdatum: "2023-02-11"
+nieuwsdatum: "2023-02-10"
+nieuwsdatum_eind: "2023-02-11"
 taxonomy:
   category:
     - nieuws

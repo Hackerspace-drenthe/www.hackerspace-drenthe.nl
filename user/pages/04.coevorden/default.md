@@ -2,6 +2,7 @@
 title: "Werkplaats Coevorden"
 menu: "Werkplaats"
 visible: true
+lead_image: "featured-werkplaats.jpg"
 process:
   markdown: true
   twig: false

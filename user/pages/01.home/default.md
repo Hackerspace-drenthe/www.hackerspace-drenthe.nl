@@ -2,6 +2,7 @@
 title: "Hackerspace Drenthe"
 menu: "Hackerspace Drenthe"
 visible: true
+lead_image: "featured-home.jpg"
 process:
   markdown: true
   twig: false

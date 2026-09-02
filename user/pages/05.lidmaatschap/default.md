@@ -2,6 +2,7 @@
 title: "Lidmaatschap"
 menu: "Lidmaatschap"
 visible: true
+lead_image: "featured-lidmaatschap.png"
 process:
   markdown: true
   twig: false

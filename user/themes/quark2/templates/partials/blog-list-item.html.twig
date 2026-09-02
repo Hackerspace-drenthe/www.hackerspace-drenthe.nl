@@ -2,6 +2,8 @@
     {% set image = page.media.images|first %}
     {% if image %}
     <a class="card-image" href="{{ page.url }}">{{ image.cropZoom(800, 420).html|raw }}</a>
+    {% else %}
+    <a class="card-image" href="{{ page.url }}"><img src="/user/pages/03.nieuws/featured-nieuws.png" alt="{{ page.title|e('html_attr') }}" loading="lazy" decoding="async" /></a>
     {% endif %}
     <header class="card-header">
         <div class="card-subtitle">

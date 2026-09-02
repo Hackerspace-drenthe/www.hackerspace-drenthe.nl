@@ -528,6 +528,20 @@ blockquote footer {
   margin-bottom: 0;
 }
 
+.page-lead-media {
+  margin: 0 0 clamp(1.25rem, 3vw, 2rem);
+  border-radius: var(--q2-radius-md);
+  overflow: hidden;
+  box-shadow:
+    rgba(19, 19, 22, 0.04) 0 1px 2px,
+    rgba(19, 19, 22, 0.08) 0 12px 24px -12px;
+}
+.page-lead-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 :root[data-theme="dark"] #body-wrapper > .container > .content-item {
   box-shadow:
     rgba(0, 0, 0, 0.35) 0 1px 2px,

@@ -3,13 +3,13 @@ title: "Nieuws"
 menu: "Nieuws"
 visible: true
 template: blog
+hero_image: "featured-nieuws.png"
 content:
   items: '@self.children'
   order:
     by: date
     dir: desc
-  pagination: true
-  limit: 10
+  pagination: false
 process:
   markdown: true
   twig: false
