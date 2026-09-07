@@ -6,9 +6,6 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/Amsterdam
-      # werkt nog niet door php.ini etc
-      # - GRAV_ENVIRONMENT=production
-      # - S6_KEEP_ENV=1
     volumes:
       - data:/config/www/user/data
       - accounts:/config/www/user/accounts
@@ -27,8 +24,6 @@ services:
     networks:
       - proxynet
       - default
-
-
 
   smtp:
     image: mwader/postfix-relay

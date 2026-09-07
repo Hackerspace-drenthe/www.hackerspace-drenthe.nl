@@ -8,7 +8,7 @@ process:
   twig: false
 ---
 
-<p class="wp-block-paragraph">TEST Ben jij een maker, een tech-enthousiasteling of een creatieve doener? Bij <strong>Hacker &amp; Makerspace Drenthe</strong> in Coevorden vind je alles wat je nodig hebt om te experimenteren, te bouwen en te leren. Wij zijn een non-profit community, gerund door vrijwilligers, waar kennis delen en samenwerken centraal staan.</p>
+<p class="wp-block-paragraph">Ben jij een maker, een tech-enthousiasteling of een creatieve doener? Bij <strong>Hacker &amp; Makerspace Drenthe</strong> in Coevorden vind je alles wat je nodig hebt om te experimenteren, te bouwen en te leren. Wij zijn een non-profit community, gerund door vrijwilligers, waar kennis delen en samenwerken centraal staan.</p>
 
 
 
