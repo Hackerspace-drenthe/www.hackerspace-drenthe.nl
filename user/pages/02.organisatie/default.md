@@ -13,8 +13,8 @@ process:
 <p>Het bestuur van Stichting Hackerspace Drenthe bestond bij de oprichting uit de volgende personen:</p>
 
 <ul>
-<li>Adri Wischmann (voorzitter)</li>
-<li>Marijn Oosterveld (secretaris)</li>
+<li>Peter Koops (voorzitter)</li>
+<li>Hendrie Bosch (secretaris)</li>
 <li>Rein Velt (penningmeester)</li>
 <li>Edwin Eefting (algemeen)</li>
 </ul>
