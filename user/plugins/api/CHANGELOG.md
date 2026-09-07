@@ -1,3 +1,33 @@
+# v1.0.26
+## 09/05/2026
+
+1. [](#new)
+    * **A plugin page can now draw another plugin's settings.** A page definition gains a `settings_page` key beside `settings_route`, naming the plugin whose admin page holds the form. Answer `onApiPluginPageInfo` for an add-on that has no admin page of its own, point it at your page, and `GET /gpm/plugins` and `GET /gpm/plugins/{slug}` carry both keys so Admin Next sends `/plugins/{add-on}` and the Configure button on the Plugins list to `/plugin/{settings_page}{settings_route}`. That is how a suite of add-ons keeps every setting in one admin page instead of scattering them across the Plugins list. The named plugin has to be installed and have an admin page, and `settings_route` still has to be a hash route — otherwise both keys are dropped. Listing plugins now asks every installed plugin rather than only those with a page on disk, which is what lets a plugin answer for its add-ons.
+
+# v1.0.25
+## 09/03/2026
+
+1. [](#improved)
+    * The `onApiPageUpdated` event now says which template a page had before, when a save changed it, so a plugin keeping anything keyed on the template can clean up after itself [getgrav/grav-plugin-sync#4](https://github.com/getgrav/grav-plugin-sync/issues/4)
+
+# v1.0.24
+## 09/03/2026
+
+1. [](#bugfix)
+    * A package built for another generation of Grav can no longer be installed from the Plugins page. Nothing on this path checked, so a plugin still requiring the Grav 1.7 admin plugin could pull it in alongside Admin 2 whenever the repository happened to serve it [getgrav/grav-premium-issues#618](https://github.com/getgrav/grav-premium-issues/issues/618)
+
+# v1.0.23
+## 09/02/2026
+
+1. [](#new)
+    * A plugin page can now say its settings live on the plugin's own page, with a `settings_route` key holding a hash route such as `#/settings`. The plugin's entry in `GET /gpm/plugins` and `GET /gpm/plugins/{slug}` carries it too, so Admin Next can send `/plugins/{slug}` and the Configure button on the Plugins list straight to the plugin's own settings screen instead of drawing a second copy of the same form. Only a hash route is accepted, so the key names a place inside the plugin's page and nowhere else, and a plugin with no admin page on disk is never asked.
+    * Albert Sans joins the admin font choices. The preferences resolver accepts `albert-sans` as a site default and as a personal choice, to match the Admin Next 2.1.4 bundle that ships the face.
+    * Page Statistics now ignores command-line and library HTTP clients such as curl, wget and python-requests, which were being counted as real visitors. A new Excluded User Agents setting lets you add your own, for monitoring tools and scanners. Thanks to @mschiegg [#4274](https://github.com/getgrav/grav/issues/4274)
+    * Uploading or deleting a file on the Media page now notifies plugins, the same way uploading to a page always has. Plugins that react to media changes, such as Git Sync's automatic sync, previously never heard about a site-wide upload [#261](https://github.com/trilbymedia/grav-plugin-git-sync/issues/261)
+
+1. [](#bugfix)
+    * **The route cache follows plugin upgrades.** The compiled route table was keyed on the set of enabled plugins alone, so a plugin whose new version registered a route it did not have before kept the old table until someone ran `bin/grav clear`, and every call to the new route answered 404 while the admin screen that made it looked installed. The key now also carries the modification time of each enabled plugin's `blueprints.yaml`, which a version bump always edits, at the cost of one stat per plugin per request.
+
 # v1.0.22
 ## 08/31/2026
 

@@ -34,6 +34,10 @@ ICU:
     TOGGLE_DARK_MODE: Toggle dark mode
     TOGGLE_MENU: Toggle menu
     UNSAVED_CHANGES: Unsaved changes
+    NOTICES:
+      HEADING: '{count, plural, one {Notice} other {Notices}}'
+      SHOW: Show notices
+      HIDE: Hide notices
     UNSAVED_CHANGES_DIALOG:
       LEAVE_MESSAGE: You have unsaved changes. Leave anyway?
       LEAVE: Leave
@@ -227,6 +231,7 @@ ICU:
         ROOT: <root> /
         PAGE_TEMPLATE: Page Template
         LOADING_TEMPLATES: Loading templates...
+        STATUS_HELP: Drafts are saved but not visible on the site until you publish them
         VISIBLE: Visible
         CONTROLS_WHETHER_THIS_PAGE_APPEARS_IN: Controls whether this page appears in navigation menus
         CONTINUE: Continue
@@ -1143,6 +1148,8 @@ ICU:
       ACCENT_COLOR: Accent Color
       PRIMARY_COLOR_USED_FOR_BUTTONS_LINKS: Primary color used for buttons, links, and highlights
       SATURATION: Saturation
+      CURRENT_COLOR: Color
+      COPY_COLOR: Copy this color
       TYPEFACE_USED_THROUGHOUT_THE_ADMIN: Typeface used throughout the admin
       FONT_SIZE: Font Size
       TEXT_SIZE_USED_THROUGHOUT_THE_ADMIN: Text size used throughout the admin
@@ -1796,6 +1803,8 @@ ICU:
     IMAGES_LOADING_HELP: "The loading attribute allows a browser to defer loading offscreen images and iframes until users scroll near them. loading supports three values: auto, lazy, eager"
     IMAGES_MAX_PIXELS: Maximum image pixels
     IMAGES_MAX_PIXELS_HELP: "Total-pixel ceiling (width x height) for URL-based resize actions. Requests above this limit are refused. Set to 0 to disable the check."
+    IMAGES_PROGRESSIVE_JPEG: Progressive JPEGs
+    IMAGES_PROGRESSIVE_JPEG_HELP: "Save resized and cached JPEGs as progressive, so they appear as a whole blurry image that sharpens rather than filling in from the top. Usually smaller too. Does not affect PNG, WebP or AVIF."
     IMAGES_SEOFRIENDLY: SEO-Friendly Image names
     IMAGES_SEOFRIENDLY_HELP: When enabled, the image name is displayed first, then a smaller hash to reflect processed operations
     IMAGES_URL_ACTIONS: Allow URL-based image actions
