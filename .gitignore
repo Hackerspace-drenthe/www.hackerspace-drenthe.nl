@@ -16,3 +16,6 @@ backup/
 # Sensitive / instance-specific user data
 user/accounts/
 user/data/
+
+api-private.php
+security-private.php

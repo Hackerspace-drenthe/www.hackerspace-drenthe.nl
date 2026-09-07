@@ -1,0 +1,23 @@
+services:
+  grav:
+      
+    image: lscr.io/linuxserver/grav:latest
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Amsterdam
+    volumes:
+      - ./user:/config/www/user
+      - data:/config/www/user/data
+      - accounts:/config/www/user/accounts
+    restart: unless-stopped
+    stop_grace_period: 0s
+
+    ports:
+      - 8080:80
+
+volumes:
+  data:
+    driver: ${VOL_DRIVER:-local}
+  accounts:
+    driver: ${VOL_DRIVER:-local}
