@@ -1,6 +1,6 @@
 services:
   grav:
-      
+    pull_policy: always  
     image: lscr.io/linuxserver/grav:latest
     environment:
       - PUID=1000

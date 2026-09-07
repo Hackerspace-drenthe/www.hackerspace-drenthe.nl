@@ -1,7 +1,9 @@
 services:
   grav:
-      
-    build: . 
+    
+    build:
+       context: .
+       pull: true
     environment:
       - PUID=1000
       - PGID=1000
