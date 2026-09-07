@@ -1,30 +1,47 @@
 services:
   grav:
-    image: lscr.io/linuxserver/grav:latest
-    container_name: grav
+      
+    build: . 
     environment:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/Amsterdam
+      # werkt nog niet door php.ini etc
+      # - GRAV_ENVIRONMENT=production
+      # - S6_KEEP_ENV=1
     volumes:
-      - ./user:/config/www/user
-    ports:
-      - 80:80
+      - config:/config
     restart: unless-stopped
+    stop_grace_period: 0s
 
-  # git-sync:
-  #   image: alpine/git
-  #   container_name: git-sync
-  #   volumes:
-  #     - ./:/repo
-  #   working_dir: /repo
-  #   entrypoint: /bin/sh
-  #   command:
-  #     - -c
-  #     - |
-  #       git config --global --add safe.directory /repo
-  #       while true; do
-  #         git pull --ff-only
-  #         sleep 60
-  #       done
-  #   restart: unless-stopped
+    labels:
+      - traefik.enable=true
+      
+      #https
+      - traefik.http.routers.${COMPOSE_PROJECT_NAME}-https.entrypoints=websecure
+      - traefik.http.routers.${COMPOSE_PROJECT_NAME}-https.rule=${TRAEFIK_RULE}
+      # - traefik.http.routers.${COMPOSE_PROJECT_NAME}-https.tls=true
+      # - traefik.http.routers.${COMPOSE_PROJECT_NAME}-https.tls.certresolver=letsencrypt
+
+    networks:
+      - proxynet
+      - default
+
+
+
+  smtp:
+    image: mwader/postfix-relay
+    environment: 
+      - POSTFIX_myhostname=${POSTFIX_HOSTNAME}
+
+    restart: unless-stopped
+    stop_grace_period: 0s
+
+networks:
+  proxynet:
+    name: proxynet
+
+
+volumes:
+  config:
+    driver: ${VOL_DRIVER:-local}
