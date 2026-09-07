@@ -12,7 +12,7 @@ and plugins.
 docker compose -f docker-compose-dev.yml up
 ```
 
-Open <http://localhost:8080>.
+Open [http://localhost:8080](http://localhost:8080).
 
 - Bind-mounts `./user` into the container, so edits to `user/pages`, `user/config`, etc. show up
   on refresh — no rebuild needed (clear the Grav cache from the admin panel if a change doesn't
@@ -77,4 +77,4 @@ Grav will prompt you to create a new admin account on next login.
 - **Plugins/themes**: upgrade via the Grav admin backend as normal — they live in `user/`, so
   changes are picked up and should be committed.
 - **Grav core**: do *not* upgrade via the backend — it's baked into the `lscr.io/linuxserver/grav`
-  Docker image, not tracked in this repo. Upgrade it by bumping the image tag instead.
+  Docker image, not tracked in this repo. Every time a change is made to this repo it should automaticly pull the newest GravCMS image beofre building.
