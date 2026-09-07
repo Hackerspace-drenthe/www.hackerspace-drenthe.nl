@@ -10,7 +10,8 @@ services:
       # - GRAV_ENVIRONMENT=production
       # - S6_KEEP_ENV=1
     volumes:
-      - config:/config
+      - data:/config/www/user/data
+      - accounts:/config/www/user/accounts
     restart: unless-stopped
     stop_grace_period: 0s
 
@@ -43,5 +44,7 @@ networks:
 
 
 volumes:
-  config:
+  data:
+    driver: ${VOL_DRIVER:-local}
+  accounts:
     driver: ${VOL_DRIVER:-local}
