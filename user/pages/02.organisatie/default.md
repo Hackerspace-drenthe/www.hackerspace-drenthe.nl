@@ -10,7 +10,7 @@ process:
 
 <p>Stichting Hackerspace Drenthe is op 26 maart 2021 door de notaris ingeschreven in het register van de Kamer van Koophandel.</p>
 
-<p>Het bestuur van Stichting Hackerspace Drenthe bestond bij de oprichting uit de volgende personen:</p>
+<p>Het bestuur van Stichting Hackerspace Drenthe bestaat uit de volgende personen:</p>
 
 <ul>
 <li>Peter Koops (voorzitter)</li>
