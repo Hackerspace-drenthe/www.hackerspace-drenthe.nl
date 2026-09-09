@@ -14,5 +14,6 @@ process:
   markdown: true
   twig: false
 ---
+## Nieuws
 
-<h2>Nieuws</h2><p>Laatste nieuws en activiteiten van Hackerspace Drenthe.</p>
+Laatste nieuws en activiteiten van Hackerspace Drenthe.

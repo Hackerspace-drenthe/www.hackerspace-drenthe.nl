@@ -1,6 +1,10 @@
 {% macro nav_loop(page) %}
   {% import _self as macros %}
-  {% for p in page.children.visible %}
+  {% set nav_children = page.children.visible %}
+  {% if page.route == '/nieuws' %}
+    {% set nav_children = nav_children|reverse|slice(0, 7) %}
+  {% endif %}
+  {% for p in nav_children %}
     {% set active_page = (p.active or p.activeChild) ? 'active' : '' %}
     {% set has_children = p.children.visible.count > 0 %}
     <li{% if has_children %} class="has-children"{% endif %}>
@@ -15,4 +19,9 @@
       {% endif %}
     </li>
   {% endfor %}
+  {% if page.route == '/nieuws' and page.children.visible.count > 7 %}
+    <li class="has-more">
+      <a href="{{ page.url }}">Meer &rarr;</a>
+    </li>
+  {% endif %}
 {% endmacro %}

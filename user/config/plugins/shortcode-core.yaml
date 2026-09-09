@@ -1,0 +1,9 @@
+enabled: true
+active: true
+shortcodes:
+  - name: callout
+    template: "shortcodes/callout.html.twig"
+  - name: badge
+    output: '<span class="badge badge-{{ params.style|default("default") }}">{{ content }}</span>'
+  - name: youtube
+    template: "shortcodes/youtube.html.twig"
