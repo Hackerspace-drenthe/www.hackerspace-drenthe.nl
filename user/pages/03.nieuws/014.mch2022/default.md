@@ -5,6 +5,7 @@ visible: true
 template: item
 date: "2022-07-15T23:31:00"
 publish_date: "2022-07-15T23:31:00"
+nieuwsdatum: "2022-07-15"
 taxonomy:
   category:
     - nieuws
