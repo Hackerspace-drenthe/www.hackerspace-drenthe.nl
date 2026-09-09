@@ -78,3 +78,27 @@ Grav will prompt you to create a new admin account on next login.
   changes are picked up and should be committed.
 - **Grav core**: do *not* upgrade via the backend — it's baked into the `lscr.io/linuxserver/grav`
   Docker image, not tracked in this repo. Every time a change is made to this repo it should automaticly pull the newest GravCMS image beofre building.
+
+## Deploy guard (prevent duplicate news after renames)
+
+When news folders are renumbered/renamed, a deploy method that only copies files (without deleting
+removed paths) can leave stale folders on the server. Grav then sees both old and new folders,
+which can duplicate items.
+
+Use a deploy sync with delete semantics and clear cache after deploy.
+
+```sh
+LIVE_HOST=user@server \
+LIVE_PATH=/opt/www.hackerspace-drenthe.nl \
+./scripts/deploy_with_delete_example.sh
+```
+
+To verify live output quickly:
+
+```sh
+python3 scripts/check_live_news_duplicates.py https://hackerspace-drenthe.nl
+```
+
+Expected output after a healthy deploy:
+
+- `NEWS_DUPLICATE_ROUTES=0`
