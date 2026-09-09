@@ -1,12 +1,30 @@
 {% macro nav_loop(page) %}
   {% import _self as macros %}
   {% set nav_children = page.children.visible %}
+  {% set show_more = false %}
   {% if page.route == '/nieuws' %}
     {% set nav_children = page.collection({
       items: {'@self.children': ''},
       order: { by: 'header.nieuwsdatum', dir: 'desc' }
-    })|slice(0, 7) %}
+    }) %}
   {% endif %}
+
+  {% set deduped_children = [] %}
+  {% set seen_urls = [] %}
+  {% for p in nav_children %}
+    {% set normalized_url = p.url|trim('/') %}
+    {% if normalized_url not in seen_urls %}
+      {% set seen_urls = seen_urls|merge([normalized_url]) %}
+      {% set deduped_children = deduped_children|merge([p]) %}
+    {% endif %}
+  {% endfor %}
+  {% set nav_children = deduped_children %}
+
+  {% if page.route == '/nieuws' %}
+    {% set show_more = nav_children|length > 7 %}
+    {% set nav_children = nav_children|slice(0, 7) %}
+  {% endif %}
+
   {% for p in nav_children %}
     {% set active_page = (p.active or p.activeChild) ? 'active' : '' %}
     {% set has_children = p.children.visible.count > 0 %}
@@ -22,7 +40,7 @@
       {% endif %}
     </li>
   {% endfor %}
-  {% if page.route == '/nieuws' and page.children.visible.count > 7 %}
+  {% if page.route == '/nieuws' and show_more %}
     <li class="has-more">
       <a href="{{ page.url }}">Ouder nieuws &rarr;</a>
     </li>

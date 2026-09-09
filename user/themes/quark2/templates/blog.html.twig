@@ -35,8 +35,13 @@
             {% embed 'partials/layout.html.twig' with {blog: page, show_sidebar: show_sidebar} %}
                 {% block item %}
                     <div class="blog-grid">
+                    {% set seen_routes = [] %}
                     {% for child in collection %}
-                        {% include 'partials/blog-list-item.html.twig' with {blog: page, page: child} %}
+                        {% set child_route = child.route|trim('/') %}
+                        {% if child_route not in seen_routes %}
+                            {% set seen_routes = seen_routes|merge([child_route]) %}
+                            {% include 'partials/blog-list-item.html.twig' with {blog: page, page: child} %}
+                        {% endif %}
                     {% endfor %}
                     </div>
 
