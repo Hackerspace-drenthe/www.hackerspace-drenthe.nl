@@ -4,3 +4,135 @@
  * This file is safe to edit. It is loaded last so anything here overrides
  * theme.css without having to mark rules !important.
  */
+
+/* Use the matching logo artwork for the active color theme. */
+.navbar-brand .brand-logo {
+	position: relative;
+	display: block;
+	flex: 0 0 auto;
+	width: 104px;
+	height: 104px;
+	transition: width 0.42s ease-in-out, height 0.42s ease-in-out;
+}
+
+.navbar-brand .brand-logo img {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	max-width: none;
+	object-fit: contain;
+}
+
+.navbar-brand .brand-logo-dark,
+:root[data-theme="dark"] .navbar-brand .brand-logo-light {
+	display: none;
+}
+
+:root[data-theme="dark"] .navbar-brand .brand-logo-dark {
+	display: block;
+}
+
+.header-animated.scrolled #header .navbar-brand .brand-logo {
+	width: 84px;
+	height: 84px;
+}
+
+.overlay .mobile-logo .brand-logo {
+	width: 88px;
+	height: 88px;
+}
+
+.breadcrumb-section {
+	padding: 0.75rem 0 0;
+}
+
+.breadcrumb-section .breadcrumbs {
+	margin-bottom: 0;
+}
+
+/* Werkplaats photos and manual images share a compact frame without cropping details. */
+article.content-item img[src*="/user/pages/05.werkplaats/"] {
+	display: block;
+	width: min(100%, 38rem);
+	max-width: none;
+	height: clamp(12rem, 28vw, 22rem);
+	margin: 0.8rem auto;
+	padding: 0.4rem;
+	object-fit: contain;
+	background: var(--q2-bg-elev);
+	border: 1px solid var(--q2-divider);
+	border-radius: 8px;
+	box-shadow: var(--q2-shadow-card);
+}
+
+article.content-item .page-lead-media:has(img[src*="/user/pages/05.werkplaats/"]) {
+	width: 100%;
+	max-width: none;
+}
+
+article.content-item .page-lead-media img.page-lead-image[src*="/user/pages/05.werkplaats/"] {
+	width: 100%;
+	max-width: none;
+	height: auto;
+	max-height: none;
+	margin: 0;
+	padding: 0;
+	object-fit: cover;
+}
+
+article.content-item img[src$="/images/plattegrond.png"] {
+	width: 100%;
+	max-width: none;
+	height: auto;
+	max-height: none;
+	margin: 1rem 0;
+	padding: 0;
+	object-fit: contain;
+}
+
+article.content-item .werkplaats-galerij {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+	gap: 1rem;
+	margin: 1.5rem 0 2rem;
+}
+
+article.content-item .werkplaats-galerij figure {
+	min-width: 0;
+	margin: 0;
+	padding: 0.65rem;
+	border: 1px solid var(--q2-divider);
+	border-radius: 8px;
+	background: var(--q2-bg-elev);
+	box-shadow: var(--q2-shadow-card);
+}
+
+article.content-item .werkplaats-galerij img[src*="/user/pages/05.werkplaats/"] {
+	width: 100%;
+	height: clamp(18rem, 32vw, 24rem);
+	margin: 0;
+	padding: 0.25rem;
+	object-fit: contain;
+	border: 0;
+	border-radius: 5px;
+	box-shadow: none;
+}
+
+article.content-item .werkplaats-galerij figcaption {
+	margin-top: 0.55rem;
+	color: var(--q2-text-muted);
+	font-size: 0.875rem;
+	line-height: 1.4;
+}
+
+article.content-item .werkplaats-galerij figure.panorama {
+	grid-column: 1 / -1;
+}
+
+article.content-item .werkplaats-galerij figure.panorama img {
+	height: auto;
+	max-height: 20rem;
+	aspect-ratio: 3.6 / 1;
+	object-fit: cover;
+}

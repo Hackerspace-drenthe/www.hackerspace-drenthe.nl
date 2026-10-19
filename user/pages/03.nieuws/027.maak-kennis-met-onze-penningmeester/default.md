@@ -23,4 +23,4 @@ Wie beheert onze financiën? Dat doet ons getalenteerde lid Rein Velt!
 >
 > Het mooie aan de hackerspace is dat ik kan praten met mensen die mij begrijpen. Met mensen die weten wat het verschil is tussen een microprocessor en een microcontroller. Lekker samen knooi’n met Lora, Meshtastic en dat dan samen met de Revbar aan MQTT koppelen zodat het ws2812-led-matrix-display een andere animatie geeft. Dat is toch mooi?”
 
-Wil je meer weten over de hackerspace, kijk dan op onze [wiki](https://wiki.hackerspace-drenthe.nl/index.php/Hoofdpagina) of join onze [telegram](https://t.me/+GTTYOvZTRVNhNThk)
+Wil je meer weten over de hackerspace, bekijk dan [onze organisatiepagina](/organisatie) of join onze [Telegramgroep](https://t.me/+GTTYOvZTRVNhNThk).

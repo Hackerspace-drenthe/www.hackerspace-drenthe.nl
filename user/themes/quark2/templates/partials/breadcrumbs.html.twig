@@ -1,13 +1,17 @@
-{% if breadcrumbs.get() %}
-<nav aria-label="{{ 'THEME_QUARK2.ARIA.BREADCRUMB'|t|e('html_attr') }}">
+{% set route_segments = page.route|trim('/')|split('/') %}
+<nav aria-label="Broodkruimelnavigatie">
     <ol class="breadcrumbs">
-        {% for crumb in breadcrumbs.get() %}
-            {% if loop.last %}
-                <li aria-current="page">{{ crumb.title }}</li>
-            {% else %}
-                <li><a href="{{ crumb.url }}">{{ crumb.title }}</a></li>
+        <li><a href="{{ home_url }}">Home</a></li>
+        {% set crumb_path = '' %}
+        {% for segment in route_segments %}
+            {% set crumb_path = crumb_path ~ '/' ~ segment %}
+            {% if not loop.last %}
+                {% set crumb_page = page.find(crumb_path) %}
+                {% if crumb_page %}
+                    <li><a href="{{ crumb_page.url }}">{{ crumb_page.menu|default(crumb_page.title) }}</a></li>
+                {% endif %}
             {% endif %}
         {% endfor %}
+        <li aria-current="page">{{ page.menu|default(page.title) }}</li>
     </ol>
 </nav>
-{% endif %}

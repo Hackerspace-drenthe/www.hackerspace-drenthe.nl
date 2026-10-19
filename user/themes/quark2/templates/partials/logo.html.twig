@@ -9,6 +9,9 @@
         <img src="{{ url('theme://images/logo/' ~ logo_file) }}" alt="{{ site.title }}" />
     {% endif %}
 {% else %}
-    <img src="{{ url('theme://images/logo/hackerspace-drenthe-logo.png') }}" alt="{{ site.title }}" />
+    <span class="brand-logo" aria-hidden="true">
+        <img class="brand-logo-light" src="{{ url('theme://images/logo/hackermakerspacelogo.svg') }}" alt="" />
+        <img class="brand-logo-dark" src="{{ url('theme://images/logo/hackermakerspacelogo-inv.svg') }}" alt="" />
+    </span>
 {% endif %}
 </a>

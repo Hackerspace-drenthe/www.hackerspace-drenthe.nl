@@ -11,7 +11,7 @@ Ben jij een maker, een tech-enthousiasteling of een creatieve doener? Bij **Hack
 
 ### **Wat we in huis hebben**
 
-Met meer dan **[1000 m² aan werkruimte](/coevorden/)** bieden wij een speeltuin voor iedereen die van techniek houdt. Onze ruimtes zijn uitgerust met zowel traditioneel gereedschap als de nieuwste technologie:
+Met meer dan **[1000 m² aan werkruimte](/werkplaats/)** bieden wij een speeltuin voor iedereen die van techniek houdt. Onze ruimtes zijn uitgerust met zowel traditioneel gereedschap als de nieuwste technologie:
 
 - **Fabricage:** Lasersnijders, plasmacutters, CNC-freesmachines en metaalbewerking.
 - **Rapid Prototyping:** Een park aan 3D-printers en elektronica-werkstations.
@@ -38,4 +38,4 @@ Nieuwsgierig geworden? Je hoeft geen expert te zijn om bij ons binnen te stappen
 - **Waar:** Naast het Fablab bij de Nieuwe Veste (Coevorden).
 - **Voor wie:** Iedereen die wil leren, maken en inspireren.
 
-**Word onderdeel van onze community!** Wil je meer weten over [projecten](/nieuws/) of het [lidmaatschap](/lidmaatschap/)? Duik in onze [Wiki](https://wiki.hackerspace-drenthe.nl/) of kom aanstaande woensdag gewoon langs voor een bak koffie en een goed gesprek.
+**Word onderdeel van onze community!** Wil je meer weten over [projecten](/nieuws/), het [lidmaatschap](/lidmaatschap/) of [onze organisatie](/organisatie)? Kom aanstaande woensdag gewoon langs voor een bak koffie en een goed gesprek.
