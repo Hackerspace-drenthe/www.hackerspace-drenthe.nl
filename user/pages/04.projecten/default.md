@@ -14,6 +14,8 @@ source_url: "https://wiki.hackerspace-drenthe.nl/wiki/Projecten"
 
 ## Kernprojecten
 
+Deze kernprojecten zijn verbonden aan terugkerende en doorlopende activiteiten van Hackerspace Drenthe. Drenthe Noodnetwerk staat centraal tijdens de terugkerende **Mei Meshcore Maand**. **Roboktober** is een doorlopend communityproject met een terugkerend evenement waarin deelnemers samen combat robots bouwen.
+
 | Drenthe Noodnetwerk | Roboktober |
 | --- | --- |
 | ![Kaart van het Drenthe Noodnetwerk](images/drenthe-noodnetwerk-kaart.jpeg) | ![Onderdelen van de Roboktober-antweightrobot](images/roboktober-robot-parts.webp) |
@@ -34,5 +36,4 @@ Oudere projecten:
 <!-- AUTO-INDEX:START -->
 ## Subpages
 
-- [Documentatie](/projecten/documentatie)
 <!-- AUTO-INDEX:END -->

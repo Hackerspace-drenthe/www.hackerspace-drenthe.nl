@@ -11,6 +11,7 @@ source_url: "https://wiki.hackerspace-drenthe.nl/wiki/3d_printers"
 
 * [3D-printer Prusa](/werkplaats/apparatuur/3d-printers/prusa)
 * [3D-printer Ultimaker](/werkplaats/apparatuur/3d-printers/ultimaker)
+* [3D-printer Bambu Lab A1 mini](/werkplaats/apparatuur/3d-printers/bambu-a1-mini)
 
 ## 3D-printers in het FabLab
 
@@ -33,7 +34,7 @@ Heb je al ervaring met printen met 3D printers. Overleg met de organisatie of he
 Als hackerspace zijn we niet de enigen die gebruik maken van de 3D printers. Ze worden ook door het Fablab en De Nieuwe Veste gebruikt in het onderwijs. We houden daarom als Fablab niet alle printers bezet. Overleg altijd met een Fablab coach welke printer je op welk moment kunt aanzetten.
 
 # Instructieboeken
-Voor de 3D printers zijn 2 instructieboeken aanwezig. De ene gericht op de PrusaI3, de andere op de Ultimaker S5. 
+Voor de Prusa i3 en Ultimaker S5 zijn instructieboeken aanwezig. De gebruikersinstructie voor de Bambu Lab A1 mini staat op de [eigen documentatiepagina](/werkplaats/apparatuur/3d-printers/bambu-a1-mini).
 
 # Wanneer PrusaI3 en wanneer UltimakerS5?
 De PrusaI3 is iets eenvoudiger in gebruik. Nooit met 3D printers gewerkt? Begin met de Prusa.
