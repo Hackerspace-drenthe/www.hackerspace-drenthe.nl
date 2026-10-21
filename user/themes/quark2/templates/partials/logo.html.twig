@@ -4,11 +4,14 @@
 <a href="{{ home_url }}" class="navbar-brand" aria-label="{{ site.title }}" title="{{ site.title }}">
 {% if logo_file %}
     {% if logo_file|lower ends with '.svg' %}
-        {{ svg_image('theme://images/logo/' ~ logo_file)|raw }}
+        {{ svg_image('user://images/logos/' ~ logo_file)|raw }}
     {% else %}
-        <img src="{{ url('theme://images/logo/' ~ logo_file) }}" alt="{{ site.title }}" />
+        <img src="{{ url('user://images/logos/' ~ logo_file) }}" alt="{{ site.title }}" />
     {% endif %}
 {% else %}
-    <img src="{{ url('theme://images/logo/hackerspace-drenthe-logo.png') }}" alt="{{ site.title }}" />
+    <span class="brand-logo" aria-hidden="true">
+        <img class="brand-logo-light" src="{{ url('user://images/logos/hackermakerspacelogo.svg') }}" alt="" />
+        <img class="brand-logo-dark" src="{{ url('user://images/logos/hackermakerspacelogo-inv.svg') }}" alt="" />
+    </span>
 {% endif %}
 </a>

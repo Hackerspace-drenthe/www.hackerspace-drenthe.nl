@@ -72,7 +72,7 @@
             {% do assets.addCss('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css', 85) %}
         {% endif %}
     {% endif %}
-    {% do assets.addCss('theme://css/custom.css', 80) %}
+    {% do assets.addCss('theme://css/custom.css?v=20261021-logo-gallery', 80) %}
 {% endblock %}
 
 {% block javascripts %}
@@ -122,6 +122,13 @@
     {% block hero %}{% endblock %}
 
         <main id="start">
+        {% if page.route != '/' and page.slug != 'home' %}
+            <section class="breadcrumb-section">
+                <div class="container">
+                    {% include 'partials/breadcrumbs.html.twig' %}
+                </div>
+            </section>
+        {% endif %}
         {% block body %}
             <section id="body-wrapper" class="section">
                 <div class="container">

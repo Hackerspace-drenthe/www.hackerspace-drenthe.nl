@@ -30,4 +30,4 @@ Meld je nu aan, want de plaatsen zijn beperkt! Stuur een email naar bestuur@hack
 
 We zien je graag op 8 april!
 
-[Pdf](/wp-content/uploads/2025/04/internetSecurityPresoReinHSDEmmen.pdf)
+De presentatieslides zijn momenteel niet beschikbaar via deze website. Neem contact op via [bestuur@hackerspace-drenthe.nl](mailto:bestuur@hackerspace-drenthe.nl) als je ze nodig hebt.

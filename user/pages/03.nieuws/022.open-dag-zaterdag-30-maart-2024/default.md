@@ -15,7 +15,7 @@ process:
 ---
 ### Ontdek de Wereld van Technologie en Innovatie op de Open Dag van Hackerspace & MAKERSPACE Drenthe!
 
-Hackerspace Drenthe nodigt jong en oud uit om op zaterdag 30 maart deel te nemen aan onze bruisende open dag ter viering van ons driejarig bestaan en de nationale hackerspacedag. Ben je gepassioneerd door technologie, innovatie en creativiteit? Dan is dit evenement absoluut iets voor jou\![![](/nieuws/open-dag-zaterdag-30-maart-2024/images/4018_Hackerspace-Drenthe_01_small.png)](/nieuws/open-dag-zaterdag-30-maart-2024/images/4018_Hackerspace-Drenthe_01_small.png)
+Hackerspace Drenthe nodigt jong en oud uit om op zaterdag 30 maart deel te nemen aan onze bruisende open dag ter viering van ons driejarig bestaan en de nationale hackerspacedag. Ben je gepassioneerd door technologie, innovatie en creativiteit? Dan is dit evenement absoluut iets voor jou\![![](/user/images/logos/4018_Hackerspace-Drenthe_01_small.png)](/user/images/logos/4018_Hackerspace-Drenthe_01_small.png)
 
 ###  
 

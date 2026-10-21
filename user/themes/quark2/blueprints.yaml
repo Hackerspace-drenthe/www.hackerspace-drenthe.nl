@@ -47,9 +47,9 @@ form:
     custom_logo:
       type: file
       label: Custom Logo
-      help: Saved to user/themes/quark2/images/logo. The file stays put across theme updates.
+      help: Saved with the other site logos in user/images/logos.
       size: large
-      destination: 'theme://images/logo'
+      destination: 'user://images/logos'
       multiple: false
       markdown: true
       accept:
@@ -58,9 +58,9 @@ form:
     custom_logo_mobile:
       type: file
       label: Custom Logo (Mobile)
-      help: Saved to user/themes/quark2/images/logo. The file stays put across theme updates.
+      help: Saved with the other site logos in user/images/logos.
       size: large
-      destination: 'theme://images/logo'
+      destination: 'user://images/logos'
       multiple: false
       accept:
         - image/*

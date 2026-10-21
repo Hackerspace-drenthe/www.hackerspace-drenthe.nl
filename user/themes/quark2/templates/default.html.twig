@@ -22,12 +22,15 @@
                             items: '@self.children',
                             order: { by: 'header.nieuwsdatum', dir: 'asc' }
                         }) %}
+                        {% set seen_event_urls = [] %}
                         {% for event_page in event_collection %}
                             {% set start_ts = event_page.header.nieuwsdatum ? event_page.header.nieuwsdatum|date('U') : null %}
                             {% set end_ts = event_page.header.nieuwsdatum_eind ? event_page.header.nieuwsdatum_eind|date('U') : null %}
-                            {% if start_ts and ((end_ts and end_ts >= now_ts) or (not end_ts and start_ts >= now_ts)) %}
+                            {% set event_url = event_page.url %}
+                            {% if start_ts and ((end_ts and end_ts >= now_ts) or (not end_ts and start_ts >= now_ts)) and event_url not in seen_event_urls %}
+                                {% set seen_event_urls = seen_event_urls|merge([event_url]) %}
                                 <li class="home-events-item">
-                                    <a href="{{ event_page.url }}">{{ event_page.title }}</a>
+                                    <a href="{{ event_url }}">{{ event_page.title }}</a>
                                     {% if event_page.header.nieuwsdatum_eind %}
                                         <time datetime="{{ event_page.header.nieuwsdatum|date('c') }}">{{ event_page.header.nieuwsdatum|date('d-m-Y') }} t/m {{ event_page.header.nieuwsdatum_eind|date('d-m-Y') }}</time>
                                     {% else %}
