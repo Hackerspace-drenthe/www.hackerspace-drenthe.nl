@@ -98,7 +98,7 @@ Dark mode lightens the accent slightly to keep it readable on the dark canvas. L
 
 ## Custom Logos
 
-To add a custom logo, put the logo file into the `user/themes/quark2/images/logo` folder. Standard image formats are supported (`.png`, `.jpg`, `.gif`, `.svg`, etc.). Then reference the logo via the YAML like so:
+To add a custom logo, put the logo file into the `user/images/logos` folder. Standard image formats are supported (`.png`, `.jpg`, `.gif`, `.svg`, etc.). Then reference the logo via the YAML like so:
 
 ```yaml
 custom_logo:
@@ -111,7 +111,7 @@ Alternatively, you can use the drag-n-drop **Custom Logo** field in the Quark 2 
 
 SVG logos are inlined and inherit `currentColor`, so they automatically adapt to light/dark mode when you set `fill="currentColor"` on their paths.
 
-Your logo lives inside the theme folder, and it is left alone when you update Quark 2. If you keep your whole Grav site in git and you installed Quark 2 before v1.1.10, delete the leftover `user/themes/quark2/.gitignore` file once. Older versions shipped a rule that kept `images/logo/` out of your repository.
+Your logo lives with the other site logos in `user/images/logos`, independently of the theme.
 
 ## Page Overrides
 

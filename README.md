@@ -41,11 +41,17 @@ user/pages/
 │   ├── 001.some-article/
 │   │   └── default.md        # one article per numbered folder
 │   └── ...
+├── 04.projecten/             # promoted community projects
+├── 05.werkplaats/             # workshop and facilities
+├── 06.lidmaatschap/
+├── 07.contact/
+└── 08.wiki/                  # imported wiki content
 ```
 
 - **One folder per page.** Folder name (minus numeric prefix) becomes the URL slug, e.g.
-  `04.coevorden/` → `/coevorden/`.
-- **Leading number = sort order only**, not part of the URL. Renumber siblings to reorder.
+  `05.werkplaats/` → `/werkplaats/`.
+- **Leading number = sort order only**, not part of the URL. Keep sibling prefixes unique. The
+  main-menu order is Nieuws, Projecten, Werkplaats, Lidmaatschap, Contact.
 - **`default.md`** = content file: YAML frontmatter (`title`, `menu`, `visible`, `lead_image`,
   ...) then Markdown/HTML body.
 - **Images sit next to the `default.md` that uses them**, optionally under an `images/` subfolder
@@ -72,12 +78,28 @@ docker compose -f docker-compose-dev.yml up
 This only wipes local admin accounts — it doesn't touch `user/pages` or anything else in the repo.
 Grav will prompt you to create a new admin account on next login.
 
+## Automated checks
+
+GitHub Actions runs on every pull request and push. It checks for duplicate Grav routes, broken
+local Markdown/HTML links, missing local media, and invalid redirects. On pull requests, changed
+visible pages with `source_url` migration metadata must have `status: approved`, `reviewed_by`,
+and `reviewed_at` set.
+
+Run the site checks locally:
+
+```sh
+python3 scripts/validate_site.py
+python3 scripts/wiki_migration/validate_wiki_migration.py --wiki-root user/pages/08.wiki
+python3 scripts/check_live_news_duplicates.py http://localhost:8080
+```
+
 ## Upgrading
 
 - **Plugins/themes**: upgrade via the Grav admin backend as normal — they live in `user/`, so
   changes are picked up and should be committed.
-- **Grav core**: do *not* upgrade via the backend — it's baked into the `lscr.io/linuxserver/grav`
-  Docker image, not tracked in this repo. Every time a change is made to this repo it should automaticly pull the newest GravCMS image beofre building.
+- **Grav core**: do *not* upgrade via the backend. The image is pinned by digest in `Dockerfile`
+  and `docker-compose-dev.yml`. Update that digest deliberately in a pull request, then run local
+  smoke tests and CI before merging.
 
 ## Deploy guard (prevent duplicate news after renames)
 
