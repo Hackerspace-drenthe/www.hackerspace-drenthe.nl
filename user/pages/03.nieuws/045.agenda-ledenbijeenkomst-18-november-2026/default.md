@@ -13,8 +13,6 @@ process:
   markdown: true
   twig: false
 ---
-![Ledenbijeenkomst bij Hackerspace Drenthe](agenda-ledenbijeenkomst.png)
-
 Op woensdag 18 november 2026 is er een ledenbijeenkomst. We beginnen om **19.30 uur**.
 
 ### Agenda
