@@ -18,15 +18,15 @@ process:
 [Open de gecombineerde plattegrond met iconen (SVG)](/user/pages/05.werkplaats/plattegrond-werkplaats.svg).
 
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin:1rem 0;">
-  <a href="/werkplaats/ruimtes" style="display:block;padding:1rem;border:1px solid #d8dde6;border-radius:10px;background:#ffffff;text-decoration:none;color:inherit;">
+  <a href="/werkplaats/ruimtes" style="display:block;padding:1rem;border:1px solid var(--q2-divider);border-radius:10px;background:var(--q2-bg-elev);text-decoration:none;color:inherit;">
     <h3 style="margin:0 0 .4rem 0;">Ruimtes</h3>
     <p style="margin:0;">Overzicht van alle werkgebieden: van FabLab en VR tot hout, metaal en opslag.</p>
   </a>
-  <a href="/werkplaats/apparatuur" style="display:block;padding:1rem;border:1px solid #d8dde6;border-radius:10px;background:#ffffff;text-decoration:none;color:inherit;">
+  <a href="/werkplaats/apparatuur" style="display:block;padding:1rem;border:1px solid var(--q2-divider);border-radius:10px;background:var(--q2-bg-elev);text-decoration:none;color:inherit;">
     <h3 style="margin:0 0 .4rem 0;">Apparatuur</h3>
     <p style="margin:0;">Machines, devices en tools per type, inclusief directe links naar detailpagina's.</p>
   </a>
-  <a href="/werkplaats/handleidingen" style="display:block;padding:1rem;border:1px solid #d8dde6;border-radius:10px;background:#ffffff;text-decoration:none;color:inherit;">
+  <a href="/werkplaats/handleidingen" style="display:block;padding:1rem;border:1px solid var(--q2-divider);border-radius:10px;background:var(--q2-bg-elev);text-decoration:none;color:inherit;">
     <h3 style="margin:0 0 .4rem 0;">Handleidingen</h3>
     <p style="margin:0;">Instructies, manuals en docs om veilig en effectief met de apparatuur te werken.</p>
   </a>
