@@ -19,6 +19,12 @@ Alle machines, devices en tools op een centrale plek.
 ## Metaal en werkplaatsmachines
 
 - [CNC-freesmachine](/werkplaats/apparatuur/cnc-freesmachine)
+- CNC-Plasmasnijder
+- CNC-Draaibank
+- Kleine CNC-frees (50x50cm)
+- grote CNC-Frees (2mx3m)
+- Draaibanken
+- Freesbanken
 
 ## Overig
 
