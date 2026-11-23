@@ -9,15 +9,42 @@ source_title: "Projecten/Ledder led matrixen"
 source_url: "https://wiki.hackerspace-drenthe.nl/wiki/Projecten/Ledder_led_matrixen"
 ---
 
-Dit project draait op diverse plekken in de space, maar er is nog geen documentatie :)
+Ledder maakt animaties voor ledstrips en ledmatrixen. Het project draait op
+verschillende plekken in de space.
 
 Animaties worden in nodejs gemaakt en gestreamed via het ledstream protocol naar de ledmatrixen.
 
-Animatie framework (draait op server/laptop): [github.com/psy0rz/ledder](https://github.com/psy0rz/ledder)
+## Projectlinks
 
-Ledstream voor op ESP32: [github.com/psy0rz/ledstream](https://github.com/psy0rz/ledstream)
+- [Ledder op GitHub: broncode en projectinformatie](https://github.com/psy0rz/ledder)
+- [Ledder-wiki: documentatie](https://github.com/psy0rz/ledder/wiki)
+- [Ledder live demo](https://ledder.datux.nl)
+- [Ledstream op GitHub: software voor de displays](https://github.com/psy0rz/ledstream)
 
 Als je er wat mee wilt help ik je wel. (Edwin)
+
+## Voorbeelden van Ledder
+
+Deze afbeeldingen komen van de [Ledder-projectpagina op GitHub](https://github.com/psy0rz/ledder).
+
+<div class="werkplaats-galerij">
+  <figure>
+    <img src="https://github.com/user-attachments/assets/35b26ad9-1d93-46cf-ab46-c9dffce8106a" alt="Ronde lichtkrant met gekleurde leds" loading="lazy" style="width:100%;height:auto;">
+    <figcaption>Ronde lichtkrant met gekleurde leds.</figcaption>
+  </figure>
+  <figure>
+    <img src="https://github.com/user-attachments/assets/26f0e116-590c-4e43-bc70-fcb4ff08fcb8" alt="Ledmatrix achter een raam met het Hackerspace Drenthe-logo" loading="lazy" style="width:100%;height:auto;">
+    <figcaption>Ledmatrix met het Hackerspace Drenthe-logo.</figcaption>
+  </figure>
+  <figure>
+    <img src="https://github.com/user-attachments/assets/cf4434a4-1626-4e7f-85ec-732aaad85866" alt="Gekleurde ledanimatie boven een zaal" loading="lazy" style="width:100%;height:auto;">
+    <figcaption>Ledanimatie boven een zaal.</figcaption>
+  </figure>
+  <figure>
+    <img src="https://github.com/user-attachments/assets/1e1b319c-af7d-4c1d-97ba-9635cdc93738" alt="Ledpanelen met gekleurde tekst" loading="lazy" style="width:100%;height:auto;">
+    <figcaption>Ledpanelen met gekleurde tekst.</figcaption>
+  </figure>
+</div>
 
 # Cirkel lichtkrant boven de lounge
 ![Ronde lichtkrant die aan het plafond hangt. ( 5 stuks van 64 x 8 in een cirkel)](images/20221015_153529.jpg)Deze draait nog op een oude versie van ledder, de raspberry pi stuurt hem rechstreeks aan. (moet hem nog updaten en driver porten van oude ledder)
