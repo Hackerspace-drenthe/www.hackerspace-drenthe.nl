@@ -50,6 +50,7 @@ Alle machines, devices en tools die standaard aanwezig zijn. Deze lijst is zeker
 ## Robotica
 
 - [Nao-robots en Dobot-armen](/werkplaats/apparatuur/robotica)
+- Robotprojecten: [Dobot](/projecten/dobot), [Dobot AI-starterrobots](/projecten/dobot/dobot-ai-starter-robots) en [Roboktober](/projecten/roboktober)
 
 ## Overig
 
