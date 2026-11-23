@@ -16,6 +16,7 @@ Alle manuals, instructies en docs voor werkplaatsapparatuur staan hier centraal.
 - [3d-printers](/werkplaats/apparatuur/3d-printers)
 - [3d-printer Prusa](/werkplaats/apparatuur/3d-printers/prusa)
 - [3d-printer Ultimaker](/werkplaats/apparatuur/3d-printers/ultimaker)
+- [Bambu Lab A1 mini](/werkplaats/apparatuur/3d-printers/bambu-a1-mini)
 - [CNC-lasers](/werkplaats/apparatuur/cnc-lasers)
 - [BRM-lasersnijder](/werkplaats/apparatuur/cnc-lasers/brm-lasersnijder)
 - [Robotica](/werkplaats/apparatuur/robotica)

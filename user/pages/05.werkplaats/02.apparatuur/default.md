@@ -15,6 +15,7 @@ Alle machines, devices en tools die standaard aanwezig zijn. Deze lijst is zeker
 - [3d-printers](/werkplaats/apparatuur/3d-printers)
 - [Prusa-printer](/werkplaats/apparatuur/3d-printers/prusa)
 - [Ultimaker-printer](/werkplaats/apparatuur/3d-printers/ultimaker)
+- [Bambu Lab A1 mini: handleiding](/werkplaats/apparatuur/3d-printers/bambu-a1-mini)
 
 ## CNC-machines
 
@@ -22,6 +23,9 @@ Alle machines, devices en tools die standaard aanwezig zijn. Deze lijst is zeker
 - PRITEC CNC-plasmasnijder: [handleiding](/werkplaats/handleidingen/pritec-cnc-plasmasnijder)
 - Emco Concept Turn 60 CNC-draaibank: [handleiding](/werkplaats/handleidingen/emco-concept-turn-60)
 - Box3D-frees: [handleiding](/werkplaats/handleidingen/box3d-frees)
+- [CNC-lasers](/werkplaats/apparatuur/cnc-lasers)
+- [BRM-lasersnijder](/werkplaats/apparatuur/cnc-lasers/brm-lasersnijder)
+- Makeblock Laserbox: [handleiding](/werkplaats/handleidingen/makeblock-laser)
 
 ## Metaalbewerking
 
@@ -36,12 +40,6 @@ Alle machines, devices en tools die standaard aanwezig zijn. Deze lijst is zeker
 - Lifthoekschaar: [handleiding](/werkplaats/handleidingen/lifthoekschaar)
 - Metabo BS-175: [handleiding](/werkplaats/handleidingen/metabo-bs-175)
 - Lassen (in diverse smaken, soorten en maten, MIG, TIG, puntlas)
-
-## Lasers
-
-- [CNC-lasers](/werkplaats/apparatuur/cnc-lasers)
-- [BRM-lasersnijder](/werkplaats/apparatuur/cnc-lasers/brm-lasersnijder)
-- Makeblock Laserbox: [handleiding](/werkplaats/handleidingen/makeblock-laser)
 
 ## Waterstraalsnijden
 
