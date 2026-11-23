@@ -2,7 +2,7 @@
 title: "Metabo BS-175"
 menu: "Metabo BS-175"
 visible: true
-template: item
+template: handleiding
 process:
   markdown: true
   twig: false

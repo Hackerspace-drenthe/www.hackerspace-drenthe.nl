@@ -15,10 +15,11 @@ source_url: "https://wiki.hackerspace-drenthe.nl/wiki/3d_printers"
 
 ## 3D-printers in het FabLab
 
-Het FabLab heeft twee typen printers:
+Het FabLab heeft meerdere typen printers:
 
 * [Prusa i3](/werkplaats/apparatuur/3d-printers/prusa) (7 printers in de algemene FabLabruimte)
 * [Ultimaker S5](/werkplaats/apparatuur/3d-printers/ultimaker) (3 printers)
+* [Bambu Lab A1 mini](/werkplaats/apparatuur/3d-printers/bambu-a1-mini)
 
 # Wie mag wanneer met welke printer aan de slag?
 We willen de printers en toebehoren netjes en heel houden. Daarom is het nodig dat je weet wat je doet als je werkt met de 3D printers.
@@ -29,6 +30,8 @@ Heb je nog geen enkele ervaring met 3D printen. Volg dan eerst een workshop bij 
 * Vervolg	cursus basistraining Ultimaker. Leer meer over diverse instellingen	in Ultimaker Cura. De verschillende nozzels en het instellen van de	Ultimaker. (1 avond)   <br />
 
 Heb je al ervaring met printen met 3D printers. Overleg met de organisatie of het nodig is dat je een cursus volgt. Anders kan laten zien dat je ervaring hebt voldoende zijn.
+
+Voor de Bambu Lab A1 mini gelden de aanwijzingen op de [eigen documentatiepagina](/werkplaats/apparatuur/3d-printers/bambu-a1-mini). Vraag bij twijfel een coach welke printer en materialen je kunt gebruiken.
 
 # Samenwerken
 Als hackerspace zijn we niet de enigen die gebruik maken van de 3D printers. Ze worden ook door het Fablab en De Nieuwe Veste gebruikt in het onderwijs. We houden daarom als Fablab niet alle printers bezet. Overleg altijd met een Fablab coach welke printer je op welk moment kunt aanzetten.
@@ -45,7 +48,7 @@ Wil je ander type materiaal? Gebruik dan de UltimakerS5.
 
 Heb je een groter ontwerp? Het printbed van de Ultimaker is wat groter.
 
-Wil je printen met 2 soorten materiaal of 2 kleuren? Dat kan alleen op de Ultimaker.
+Wil je printen met 2 soorten materiaal of 2 kleuren? De Ultimaker S5 kan dit. Vraag een coach welke mogelijkheden en accessoires beschikbaar zijn voor de andere printers.
 
 We hanteren de volgende regel: kan je ontwerp geprint worden op de PrusaI3, gebruik die dan. Zo niet, kijk of het wel kan op de Ultimaker.
 
@@ -53,4 +56,5 @@ Klaar met printen?
 
 Haal je print eraf, of overleg met een FabLab coach wanneer jouw print klaar is. Maak indien nodig een afspraak waar en wanneer je je print kunt ophalen.
 
-Haal alle filamentresten weg, zet de printer uit. Laat de printer netjes achter.
+Haal alle filamentresten weg en laat de printer netjes achter. Vraag een coach of de
+printer na gebruik uit moet; volg voor de Bambu Lab A1 mini de lokale afspraken.

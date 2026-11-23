@@ -2,7 +2,7 @@
 title: "Lifthoekschaar"
 menu: "Lifthoekschaar"
 visible: true
-template: item
+template: handleiding
 process:
   markdown: true
   twig: false

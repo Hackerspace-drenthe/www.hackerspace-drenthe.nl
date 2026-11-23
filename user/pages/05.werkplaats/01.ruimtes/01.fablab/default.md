@@ -31,6 +31,7 @@ Het FabLab is de zone voor digitale fabricage, elektronica en educatie. De platt
 ## Apparatuur en handleidingen
 
 - [3D-printers](/werkplaats/apparatuur/3d-printers)
+- [Bambu Lab A1 mini: handleiding](/werkplaats/apparatuur/3d-printers/bambu-a1-mini)
 - [CNC-lasers, waaronder de BRM-lasersnijder](/werkplaats/apparatuur/cnc-lasers)
 - [Robotica](/werkplaats/apparatuur/robotica)
 

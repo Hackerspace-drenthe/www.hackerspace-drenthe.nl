@@ -2,7 +2,7 @@
 title: "Zelf een nieuwsbericht toevoegen"
 menu: "Nieuwsbericht toevoegen"
 visible: true
-template: item
+template: handleiding
 process:
   markdown: true
   twig: false
@@ -69,7 +69,7 @@ Stuur ons een [e-mail](mailto:info@hackerspace-drenthe.nl).
 - `nieuwsdatum` is de datum van de activiteit of het nieuws, in de vorm `jaar-maand-dag`.
 - De tekst onder de tweede `---` is je bericht. Je kunt tussenkopjes maken met `##`,
   tekst vet maken met `**sterretjes**` en een link schrijven als
-  `[linktekst](https://voorbeeld.nl)`.
+  `[linktekst](https://example.com)`; vervang dit voorbeeldadres door de echte URL.
 
 Gebruik voor een gewone aankondiging de datum van de activiteit bij `nieuwsdatum`.
 Gaat je bericht niet over een activiteit op een bepaalde dag? Gebruik dan de datum

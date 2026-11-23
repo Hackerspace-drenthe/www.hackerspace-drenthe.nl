@@ -21,3 +21,9 @@ automatisering kan worden gebruikt. Welke opdrachten en software beschikbaar zij
 hangt af van de robot en de opstelling.
 
 ![Nao-robot in het FabLab](images/Nao.jpg)
+
+## Robotprojecten
+
+- [Dobot-projecten](/projecten/dobot) met informatie over onder meer de Magician-arm.
+- [Dobot AI-starterrobots](/projecten/dobot/dobot-ai-starter-robots) met documentatie en code voor mobiele robots.
+- [Roboktober](/projecten/roboktober) is een apart communityproject rond combat robots; deze robots zijn niet de Nao-robots of Dobot-armen in het FabLab.

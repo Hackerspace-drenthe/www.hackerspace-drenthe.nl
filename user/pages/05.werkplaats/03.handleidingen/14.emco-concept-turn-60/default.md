@@ -2,7 +2,7 @@
 title: "Emco Concept Turn 60 draaibank"
 menu: "Emco Concept Turn 60"
 visible: true
-template: item
+template: handleiding
 process:
   markdown: true
   twig: false

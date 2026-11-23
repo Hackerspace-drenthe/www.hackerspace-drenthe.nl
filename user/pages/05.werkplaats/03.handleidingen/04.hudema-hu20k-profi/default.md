@@ -1,17 +1,17 @@
 ---
-title: "Hudema HU20K Profi"
-menu: "Hudema HU20K Profi"
+title: "HU20K Profi kolomboor"
+menu: "HU20K Profi kolomboor"
 visible: true
-template: item
+template: handleiding
 process:
   markdown: true
   twig: false
 ---
 
-# Hudema HU20K Profi
+# HU20K Profi kolomboor
 
 Deze pagina is nog geen complete bedieningsinstructie. Controleer aan de hand van
-het typeplaatje of dit inderdaad de HUVEMA HU20K Profi is.
+het typeplaatje of merk en model inderdaad overeenkomen met HU20K Profi.
 
 ## Wat doet deze machine?
 
@@ -19,7 +19,7 @@ De foto toont een kolomboor. Een kolomboor gebruikt een draaiende boor om gaten 
 een werkstuk te maken. Controleer bij Bart welke materialen en boormaten bij deze
 machine zijn toegestaan.
 
-![Kolomboor, mogelijk de HUVEMA HU20K Profi](images/hu20k-profi.jpg)
+![Kolomboor, mogelijk de HU20K Profi](images/hu20k-profi.jpg)
 
 ## Handleiding van de leverancier
 

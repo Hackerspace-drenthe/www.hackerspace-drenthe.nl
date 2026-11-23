@@ -2,7 +2,7 @@
 title: "ALZMETALL ALZSTAR 30 kolomboor"
 menu: "ALZMETALL ALZSTAR 30"
 visible: true
-template: item
+template: handleiding
 process:
   markdown: true
   twig: false

@@ -43,7 +43,7 @@ Bij veel machines hangt ook een kaart met aanwijzingen en een machinenummer. Con
 of de kaart bij de machine hoort. Vraag Bart/Tristan/Peter als je twijfelt.
 
 - [EmcoMat-17D draaibank](/werkplaats/handleidingen/emcomat-17d)
-- [Hudema HU20K Profi](/werkplaats/handleidingen/hudema-hu20k-profi)
+- [HU20K Profi kolomboor](/werkplaats/handleidingen/hudema-hu20k-profi)
 - [Hudema metaalzaag](/werkplaats/handleidingen/hudema-metaalzaag)
 - [Emco FB-3L freesbank](/werkplaats/handleidingen/emco-fb-3l)
 - [PRITEC CNC-plasmasnijder](/werkplaats/handleidingen/pritec-cnc-plasmasnijder)

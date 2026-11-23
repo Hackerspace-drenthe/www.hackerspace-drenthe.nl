@@ -2,7 +2,7 @@
 title: "CNC-STEP High-Z S-1400/T-105"
 menu: "CNC-STEP High-Z S-1400/T-105"
 visible: true
-template: item
+template: handleiding
 process:
   markdown: true
   twig: false

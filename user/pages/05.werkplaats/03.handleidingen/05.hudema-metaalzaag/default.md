@@ -2,7 +2,7 @@
 title: "Hudema metaalzaag voor staf en buizen"
 menu: "Hudema metaalzaag"
 visible: true
-template: item
+template: handleiding
 process:
   markdown: true
   twig: false

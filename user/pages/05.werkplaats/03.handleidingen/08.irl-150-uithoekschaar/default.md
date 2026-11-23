@@ -2,7 +2,7 @@
 title: "IRL 150/150/1.6 uithoekschaar"
 menu: "IRL uithoekschaar"
 visible: true
-template: item
+template: handleiding
 process:
   markdown: true
   twig: false

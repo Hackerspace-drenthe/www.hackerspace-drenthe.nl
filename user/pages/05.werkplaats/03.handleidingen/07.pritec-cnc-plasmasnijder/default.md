@@ -2,7 +2,7 @@
 title: "PRITEC CNC-plasmasnijder"
 menu: "PRITEC CNC-plasmasnijder"
 visible: true
-template: item
+template: handleiding
 process:
   markdown: true
   twig: false

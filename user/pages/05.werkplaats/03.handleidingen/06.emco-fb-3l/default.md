@@ -2,7 +2,7 @@
 title: "Emco FB-3L freesbank"
 menu: "Emco FB-3L freesbank"
 visible: true
-template: item
+template: handleiding
 process:
   markdown: true
   twig: false
@@ -27,6 +27,11 @@ uitvoering is.
 De [officiële EMCO-productpagina](https://www.emco-world.com/en/products/milling/emcomat-fb-series/emcomat-fb-3.html)
 beschrijft de Emcomat FB-3. Controleer of dit dezelfde uitvoering is als de FB-3L
 in de werkplaats. Deze productpagina is geen bedieningshandleiding.
+
+Volgens de productpagina heeft de FB-3 een zwenkbare verticale freeskop en
+automatische voeding in de X- en Y-richting. Controleer bij de machinebeheerder
+welke functies op de aanwezige uitvoering werken; neem geen instellingen van deze
+productpagina over zonder de juiste handleiding.
 
 Een bedieningshandleiding voor precies deze uitvoering kon ik niet vinden. Vraag die
 met het model- en serienummer op bij de

@@ -48,10 +48,19 @@ Alle machines, devices en tools die standaard aanwezig zijn. Deze lijst is zeker
 ## Robotica
 
 - [Nao-robots en Dobot-armen](/werkplaats/apparatuur/robotica)
-- Robotprojecten: [Dobot](/projecten/dobot), [Dobot AI-starterrobots](/projecten/dobot/dobot-ai-starter-robots) en [Roboktober](/projecten/roboktober)
+- Robotprojecten: [Dobot](/projecten/dobot), [Dobot AI-starterrobots](/projecten/dobot/dobot-ai-starter-robots), [Roboktober](/projecten/roboktober)
 
 ## Overig
 
 - [T-shirt-pers](/werkplaats/apparatuur/t-shirt-pers)
+
+## Andere apparatuur per ruimte
+
+- FabLab: soldeerwerkplekken met afzuiging ([ruimte](/werkplaats/ruimtes/fablab))
+- Video: camera's, greenscreen, 360-camera en OBS-station ([ruimte](/werkplaats/ruimtes/video))
+- VR: VR-brillen en HoloLens ([ruimte](/werkplaats/ruimtes/vr))
+- Houtbewerking: werkbanken, handgereedschap en lintzaag ([ruimte](/werkplaats/ruimtes/houtbewerking))
+- Auto-werkplaats: hefbrug ([ruimte](/werkplaats/ruimtes/auto-werkplaats))
+- Opslag: stickerplotter ([ruimte](/werkplaats/ruimtes/opslag))
 
 Voor alle instructies en handleidingen: [overzicht Handleidingen](/werkplaats/handleidingen).

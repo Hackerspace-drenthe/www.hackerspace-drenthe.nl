@@ -2,7 +2,7 @@
 title: "HUVEMA 45DM-4NG DRO"
 menu: "HUVEMA 45DM-4NG DRO"
 visible: true
-template: item
+template: handleiding
 process:
   markdown: true
   twig: false

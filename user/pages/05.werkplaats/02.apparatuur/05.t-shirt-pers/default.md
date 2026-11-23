@@ -17,6 +17,11 @@ Transferpers 8 in 1 hittepers
 
 1250 w
 
+**Let op:** controleer het exacte model op het typeplaatje en vraag een begeleider
+om uitleg en de juiste handleiding. De instellingen en accessoires hieronder moeten
+eerst voor de aanwezige pers en het gebruikte materiaal worden gecontroleerd. De
+pers en platen worden heet; raak hete delen niet aan en houd handen uit het persvlak.
+
 ## Hoe werkt het?
 ### Wat je nodig hebt voor je begint
 * Een laserprinter of intkjetprinter of  dtf printer
@@ -28,17 +33,17 @@ Transferpers 8 in 1 hittepers
 Je hebt speciaal transfer papier nodig voor textiel of harde materialen.  Hierop print je een afbeelding met een laserprinter of een intkjet printer.  
 
 * Laat je de pers op temperatuur komen (voorverwarmen) . Let op! HEET!!!. 
-* Verwijder je de papieren laag van het printsel en legt het op het te bedrukken voorwerp in de pers. 
+* Leg het transfermateriaal op het te bedrukken voorwerp volgens de aanwijzingen op de verpakking.
 * Stel de pers in op de juiste temperatuur en tijd. 
 * Druk de pers dicht en druk op de play knop. Nadat de tijd is verlopen klinken er piepjes en moet je de pers weer losmaken.
 * Let Op!: HEET!!!
 * Haal je shirt er voorzichtig uit.
 
 ### De tijd
-Staat vaak gespecificieerd op de verpakking van het materiaal. 1 minuut is getest op een tshirt en werkt ok.
+Staat vaak op de verpakking van het materiaal. Vraag bij twijfel een begeleider.
 
 ### De temperatuur
-Staat vaak ook vermeld op de verpakking van het materiaal. 180 graden werkt wel prima tot nu toe. 
+Staat vaak ook vermeld op de verpakking van het materiaal. Vraag bij twijfel een begeleider.
 
 # Informatie & productdetails door leverancier
 * Precieze Digitale Controle: LCD-scherm met eenvoudig te bedienen knoppen maakt het gemakkelijk om de gewenste parameters in te stellen als dat nodig is. Rust uit met het hoorbare alarm, dat de machine eraan herinnert om de verwarming te stoppen wanneer de ingestelde tijd en temperatuur zijn bereikt.

@@ -2,7 +2,7 @@
 title: "Bridgeport handfreesmachine"
 menu: "Bridgeport handfreesmachine"
 visible: true
-template: item
+template: handleiding
 process:
   markdown: true
   twig: false

@@ -2,7 +2,7 @@
 title: "EmcoMat-17D draaibank"
 menu: "EmcoMat-17D draaibank"
 visible: true
-template: item
+template: handleiding
 process:
   markdown: true
   twig: false

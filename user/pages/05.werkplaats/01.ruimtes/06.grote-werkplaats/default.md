@@ -34,4 +34,6 @@ De grote werkplaats bevat de zones voor lassen, CNC, frezen, draaien en zagen. H
 
 - [CNC-freesmachine: documentatie](/werkplaats/apparatuur/cnc-freesmachine)
 
+Bekijk ook het [apparatuuroverzicht](/werkplaats/apparatuur) en het [overzicht met handleidingen](/werkplaats/handleidingen) voor de overige machines in deze ruimte.
+
 Voor CNC-machines en specialistisch gereedschap is instructie verplicht. Laat machines niet onbeheerd achter.

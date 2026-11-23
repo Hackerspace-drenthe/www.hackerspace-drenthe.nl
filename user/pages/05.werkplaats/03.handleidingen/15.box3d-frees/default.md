@@ -2,7 +2,7 @@
 title: "Box3D frees"
 menu: "Box3D frees"
 visible: true
-template: item
+template: handleiding
 process:
   markdown: true
   twig: false

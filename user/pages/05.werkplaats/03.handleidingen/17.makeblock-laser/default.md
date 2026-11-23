@@ -2,7 +2,7 @@
 title: "Makeblock-laser"
 menu: "Makeblock-laser"
 visible: true
-template: item
+template: handleiding
 process:
   markdown: true
   twig: false
