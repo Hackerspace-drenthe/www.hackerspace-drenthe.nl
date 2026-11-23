@@ -23,8 +23,8 @@ De grote werkplaats bevat de zones voor lassen, CNC, frezen, draaien en zagen. H
 		<figcaption>Freesbank voor metaalbewerking.</figcaption>
 	</figure>
 	<figure>
-		<img src="/user/pages/05.werkplaats/images/IMG_20241030_200726-576x1024.jpg" alt="Bridgeport kolomboor" loading="lazy" decoding="async">
-		<figcaption>Kolomboor in de machinezone.</figcaption>
+		<img src="/user/pages/05.werkplaats/images/IMG_20241030_200726-576x1024.jpg" alt="Bridgeport handfreesmachine" loading="lazy" decoding="async">
+		<figcaption>Handbediende freesbank met X- en Y-verstelling van de tafel.</figcaption>
 	</figure>
 	<figure>
 		<img src="/user/pages/05.werkplaats/images/IMG_20241030_200808-1024x576.jpg" alt="Pritec CNC-plasmasnijder" loading="lazy" decoding="async">
